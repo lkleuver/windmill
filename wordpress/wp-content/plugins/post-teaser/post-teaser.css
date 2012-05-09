@@ -1,0 +1,81 @@
+.template {
+	width: 100%;
+}
+.example {
+	font-weight: bold;
+}
+.clearfix::after {
+	content: "."; 
+	display: block; 
+	height: 0; 
+	clear: both; 
+	visibility: hidden;
+}
+/* Hides from IE-mac \*/
+* html .clearfix { height: 1%; }
+/* Holly Hack: End Hide */
+.right {
+	float: right;
+}
+.left {
+	float: left;
+}
+.info {
+	font-style:italic;
+	color: #d60;
+}
+.grayout {
+	color: #bbb;
+}
+.indent {
+	padding-left: 3em;
+}
+.indent2 {
+	padding-left: 5em;
+}
+#key {
+	width: 25%;
+	background-color: #eee;
+	border: 1px solid #ccc;
+	float: right;
+	font-size: 90%;
+	padding: 10px;
+}
+#key h3 {
+	border-bottom: 1px solid #ccc;
+	margin: 0;
+}
+#templates {
+	width: 70%;
+}
+#key dt {
+	color: #000;
+	font-weight: bold;
+}
+#key dd {
+	color: #555;
+	margin-left: 10px;
+}
+.preview {
+	background-color: #fff;
+	border: 1px solid #ccc;
+	padding: 10px;
+	border-top: none;
+	clear: both;
+	width: 96%;
+}
+#templates h4 {
+	background-color: #eee;
+	color: #777;
+	margin: 20px 0 0 0;
+	border: 1px solid #ccc;
+	border-bottom: none;
+	padding: 10px 10px 0 10px;
+	width: 96%;
+}
+#teaser_template_container,
+#more_template_container,
+#full_template_container {
+	padding-top: 10px;
+	clear: both;
+}

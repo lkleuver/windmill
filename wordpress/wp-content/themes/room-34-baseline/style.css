@@ -1,0 +1,361 @@
+/*
+Theme Name: Room 34 Baseline
+Theme URI: http://room34.com/downloads/wppi
+Description: A simple baseline WordPress theme built with HTML 5 and Blueprint CSS.
+Version: 1.5
+Author: Scott Anderson
+Author URI: http://room34.com/
+Tags: white, silver, light, two-columns, fixed-width
+
+	This is a barebones, yet elegantly designed theme written in valid (X)HTML 5
+	and using the Blueprint CSS framework.  It works well on its own and is also
+	an excellent starting point for custom theme development.
+	
+	The theme is suitable for use with a standard WordPress blog, but is also
+	designed for sites that use WordPress as a CMS, with a horizontal navigation
+	bar in the header area, with drop-down menus for secondary navigation.
+	Secondary navigation also appears in a sidebar menu when viewing appropriate
+	primary and secondary pages.
+	
+Credits and license:
+
+Uses the Blueprint CSS framework:
+http://www.blueprintcss.org/
+
+Design, CSS and HTML are released under LGPL version 3:
+http://www.gnu.org/licenses/lgpl-3.0-standalone.html
+
+Last update: August 20, 2009
+*/
+
+/* STANDARD HTML TAGS */
+
+body {
+	color: #111;
+	font-family: "Segoe UI", "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a, a:visited {
+	color: #069;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #036;
+	text-decoration: underline;
+}
+
+a:active, a:focus {
+	outline: none;
+}
+
+blockquote {
+	border-left: 0.5em solid #ccc;
+	font-size: 0.9em;
+	font-style: normal;
+	padding: 0 0 0 1em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	line-height: 1.2em;
+}
+
+hr {
+	background: #eee;
+	color: #eee;
+}
+
+small {
+	color: #555;
+	font-size: 0.9em;
+}
+
+th {
+	background: #eee !important;
+}
+
+ul.inline {
+	display: block;
+	margin: 1em 0;
+	padding: 0;
+}
+
+	ul.inline li {
+		display: inline;
+		margin: 0 0.5em 0 0;
+	}
+
+/* CUSTOM CSS CLASSES */
+
+.alignleft {
+	float: left; display: inline; /* IE6 fix */
+	padding: 0 1em 0.5em 0;
+	text-align: left;
+}
+
+.aligncenter {
+	display: block;
+	margin: 1em auto;
+	text-align: center;
+}
+
+.alignright {
+	float: right; display: inline; /* IE6 fix */
+	padding: 0 0 0.5em 1em;
+	text-align: right;
+}
+
+.alignjustify {
+	text-align: justify;
+}
+
+.commentlist {
+	clear: both;
+	list-style: none;
+	margin: 1em 0;
+	padding: 0;
+}
+
+	.commentlist li {
+		border-bottom: 1px solid #eee;
+		margin: 0.5em 0;
+	}
+
+	.commentlist cite {
+		font-size: 1.2em;
+		font-style: normal;
+	}
+
+	.commentlist img {
+		border: 1px solid #eee;
+		float: left; display: inline; /* IE6 fix */
+		margin: 0 1em 0.5em 0;
+		padding: 4px;
+		text-align: left;
+	}
+
+	.commentlist p {
+		clear: both;
+	}
+	
+	.commentlist .bypostauthor {
+		background: #eee;
+		border-left: 0.5em solid #ccc;
+		border-color: #ccc;
+		padding-left: 1em;
+	}
+		
+.commentmetadata {
+	color: #555;
+	font-size: 0.9em;
+}
+
+.entry {
+}
+
+.input label {
+	display: block;
+	font-size: 0.9em;
+	font-weight: normal;
+}
+
+.post {
+	margin: 0 0 3em 0;
+}
+
+.postmetadata {
+	clear: both;
+	color: #555;
+	font-size: 0.9em;
+}
+
+.wp-caption {
+	background: #eee;
+	border: 1px solid #ccc;
+	padding: 0.5em;
+}
+
+	.wp-caption img {
+		border: 0;
+		margin: 0;
+		padding: 0;
+	}
+	
+	.wp-caption p.wp-caption-text {
+		margin: 0;
+		padding: 0;
+	}
+
+/* DOM ELEMENTS */
+
+#page {
+}
+
+	#header {
+		height: 180px;
+		overflow: hidden;
+	}
+	
+		#header * {
+			color: #555;
+			line-height: 1.3em;
+			text-decoration: none;
+		}
+		
+		#headerimg {
+			background: transparent;
+			height: 180px;
+			width: 950px;
+		}
+		
+		#header h1 {
+			margin: 2em 0 0 0;
+		}
+				
+	#nav {
+		border-bottom: 1px solid #eee;
+	}
+	
+		#nav ul {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+		}
+		
+		#nav li {
+			background: #eee;
+			float: left; display: inline; /* IE6 fix */
+			margin: 0;
+			padding: 0;
+			position: relative;
+		}
+		
+		#nav li:hover {
+			background: #ddd;
+		}
+		
+			#nav li a {
+				display: block;
+				padding: 0.2em 0.6em;
+				text-decoration: none;
+			}
+			
+			#nav li ul {
+				display: none;
+				position: absolute;
+				z-index: 99;
+			}
+	
+			#nav li:hover ul {
+				background: #fff;
+				border: 1px solid #999;
+				display: block;
+				left: 0;
+				min-width: 150px;
+				top: 1.9em;
+				white-space: nowrap;
+			}
+
+			#nav li:hover li {
+				background: #fff;
+				display: block;
+				float: none;
+				font-size: 0.9em;
+				margin: 0;
+				padding: 0;
+			}
+			
+			#nav li:hover li:hover {
+				background: #eee;
+			}
+			
+			#nav li:hover li a {
+				padding: 0.3em 0.5em;
+			}
+	
+	#content {
+		margin: 1.5em 0;
+		overflow: hidden;
+	}
+	
+		#content h1 {
+			font-size: 2em;
+			margin: 0 0 0.5em 0;
+		}
+	
+		#content h2 {
+			font-size: 1.8em;
+			margin: 0 0 0.5em 0;
+		}
+	
+		#content h3 {
+			font-size: 1.5em;
+			margin: 1em 0 0.5em 0;
+		}
+	
+	#sidebar {
+		font-size: 0.9em;
+		margin: 1em 0 0 1em;
+		overflow: hidden;
+	}
+	
+		#sidebar ul {
+			list-style: none;
+			margin: 0 0 1.5em 0;
+			padding: 0;
+		}
+		
+		#sidebar li {
+			margin: 0 0 0.5em 0;
+		}
+		
+		#sidebar h2 {
+			font-size: 1.2em;
+			margin: 0.5em 0;
+		}
+		
+		#sidebar h2 a {
+			color: #111;
+			text-decoration: none;
+		}
+		
+		#sidebar form {
+			margin-bottom: 1.5em;
+		}
+		
+		#sidebar div {
+			line-height: 1.5em;
+			margin: 0 0 1.5em 0;
+		}
+
+		#sidebar div a {
+			padding: 0 0.5em 0 0;
+			white-space: nowrap;
+		}
+
+		#sidebar div a:hover {
+			color: #036 !important;
+		}
+	
+	#footer {
+		border-top: 1px solid #eee;
+		color: #555;
+		font-size: 0.9em;
+		margin: 0 0 1.5em 0;
+		overflow: hidden;
+	}
+	
+		#footer p {
+			margin: 0.5em 0;
+		}
+	
+		#footer ul {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+		}
+		
+		#footer li {
+			display: inline;
+			margin: 0 1em 0 0;
+		}

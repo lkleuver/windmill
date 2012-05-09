@@ -1,0 +1,173 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: post-teaser\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Илья <mrilyuha@gmail.com>\n"
+"Language-Team: Thomas Gorny <www.ipower.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Russian\n"
+"X-Poedit-Country: RUSSIAN FEDERATION\n"
+
+#: post-teaser.php:44
+msgid "<a href=\"%permalink%\" title=\"Permanent Link: %plain_title%\" rel=\"bookmark\">Permanent link to this post</a> (%word_image_count%, estimated %reading_time% reading time)"
+msgstr "<a href=\"%permalink%\" title=\"Ссылка: %plain_title%\" rel=\"bookmark\">Ссылка на этот пост</a> (%word_image_count%, estimated %reading_time% reading time)"
+
+#: post-teaser.php:45
+msgid "This is a preview of <q>%title%</q>. <a href=\"%permalink%\" title=\"Permanent Link: %plain_title%\" rel=\"bookmark\">Read the full post (%word_image_count%, estimated %reading_time% reading time)</a>"
+msgstr "Это пример <q>%title%</q>. <a href=\"%permalink%\" title=\"Permanent Link: %plain_title%\" rel=\"bookmark\">Читать весь пост (%word_image_count%, estimated %reading_time% reading time)</a>"
+
+#: post-teaser.php:47
+msgid " mins"
+msgstr "минут"
+
+#: post-teaser.php:48
+msgid " secs"
+msgstr "секунд"
+
+#: post-teaser.php:76
+#: post-teaser.php:211
+msgid "Update Options"
+msgstr "Настройки обновления"
+
+#: post-teaser.php:92
+#: post-teaser.php:210
+msgid "Reset to defaults"
+msgstr "Сбить к изначальных"
+
+#: post-teaser.php:99
+msgid "Post Teaser"
+msgstr "Публикатор"
+
+#: post-teaser.php:104
+msgid "Settings saved."
+msgstr "Настройки сохранены."
+
+#: post-teaser.php:104
+msgid "View site &#187;"
+msgstr "Смотреть сайт &#187;"
+
+#: post-teaser.php:109
+msgid "Post Teaser Options"
+msgstr "Настройки публикатора"
+
+#: post-teaser.php:111
+msgid "You can configure Post Teaser here. You might also be interested in <a href=\"http://dev.wp-plugins.org/wiki/PostTeaser\" title=\"The Wiki Documentation page for Post Teaser\">viewing the latest documentation</a>."
+msgstr "Вы можете сейчас сконфигурировать  публикатор. You might also be interested in <a href=\"http://dev.wp-plugins.org/wiki/PostTeaser\" title=\"The Wiki Documentation page for Post Teaser\">viewing the latest documentation</a>."
+
+#: post-teaser.php:115
+msgid "Basic settings"
+msgstr "Базовые настройки"
+
+#: post-teaser.php:117
+#, php-format
+msgid "I would like the teaser to be as close to %s words as possible."
+msgstr "Я желал б, чтобы тизер был как можно поближе к %s словам."
+
+#: post-teaser.php:120
+msgid "Placeholders"
+msgstr "Метки"
+
+#: post-teaser.php:122
+msgid "These will be replaced with the appropriate values when the plugin runs."
+msgstr "Они будут заменены на соответствующие значения, если плагин работает."
+
+#: post-teaser.php:126
+msgid "The title of the post"
+msgstr "Заголовок поста"
+
+#: post-teaser.php:129
+msgid "The title in plain text with no <abbr title=\"Hypertext Markup Language\">HTML</abbr> (to go in the <code>title</code> attribute of a link, for instance)"
+msgstr "Название в текстовом формате без <abbr title=\"Hypertext Markup Language\">HTML</abbr> (перейти к <code>title</code>, например, атрибут ссылки)"
+
+#: post-teaser.php:132
+msgid "The <abbr title=\"Uniform Resource Identifier\">URI</abbr> of the post"
+msgstr "<abbr title=\"Uniform Resource Identifier\">URI</abbr> поста"
+
+#: post-teaser.php:135
+msgid "An estimation of how long it will take to read"
+msgstr "Отметка, сколько это займет времени читать"
+
+#: post-teaser.php:138
+msgid "A count of the number of words and images in the post"
+msgstr "Количество слов и образов на пост"
+
+#: post-teaser.php:145
+msgid "If the post is made into a teaser, I want the message to be in the following format:"
+msgstr "Когда пост отображается как тизер, я желаю, чтобы сообщение было в следующем формате:"
+
+#: post-teaser.php:150
+msgid "If the post is displayed in full, I want the message to be in the following format:"
+msgstr "Когда пост полный, я желаю, чтобы сообщение было в следующем формате:"
+
+#: post-teaser.php:157
+msgid "Fine tuning"
+msgstr "Докладная настройка"
+
+#: post-teaser.php:159
+msgid "Show seconds like this:"
+msgstr "Показывать секунды как:"
+
+#: post-teaser.php:161
+msgid "Show minutes like this:"
+msgstr "Показывать минуты как:"
+
+#: post-teaser.php:181
+msgid "Show word and image counts like this:"
+msgstr "Показывать слова и рисунки как: "
+
+#: post-teaser.php:187
+msgid " and "
+msgstr "и"
+
+#: post-teaser.php:193
+#: post-teaser.php:195
+#: post-teaser.php:281
+msgid "words"
+msgstr "слова"
+
+#: post-teaser.php:193
+#: post-teaser.php:195
+#: post-teaser.php:281
+msgid "images"
+msgstr "рисунки"
+
+#: post-teaser.php:206
+msgid "Show the count of images or words, even if it's zero"
+msgstr "Показывать количество рисунков или слов, когда их нет"
+
+#: post-teaser.php:278
+msgid "An <em>example<\\/em> post"
+msgstr "<em>пример<\\/em> паста"
+
+#: post-teaser.php:279
+msgid "An example post"
+msgstr "Пример поста"
+
+#: post-teaser.php:289
+#: post-teaser.php:302
+msgid "Preview"
+msgstr "Предосмотр"
+
+#: post-teaser.php:330
+msgid "Do you really want to reset all your configuration to the default values?"
+msgstr "Вы на самом деле хотите привести все настройки к изначальным?"
+
+#: post-teaser.php:444
+msgid " word"
+msgstr "слово"
+
+#: post-teaser.php:444
+msgid " words"
+msgstr "слова"
+
+#: post-teaser.php:451
+msgid " image"
+msgstr "рисунок"
+
+#: post-teaser.php:451
+msgid " images"
+msgstr "рисунки"
+

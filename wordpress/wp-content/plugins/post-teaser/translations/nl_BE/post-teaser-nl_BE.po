@@ -1,0 +1,175 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Post Teaser 3.3\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2005-08-18 15:47+0100\n"
+"Last-Translator: Mathias Bynens <mathibus@gmail.com>\n"
+"Language-Team: Jonathan Leighton <turnip@turnipspatch.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: post-teaser.php:44
+msgid "<a href=\"%permalink%\" title=\"Permanent Link: %plain_title%\" rel=\"bookmark\">Permanent link to this post</a> (%word_image_count%, estimated %reading_time% reading time)"
+msgstr "<a href=\"%permalink%\" title=\"Permanente link: %plain_title%\" rel=\"bookmark\">Permanente link naar dit bericht</a> (%word_image_count%, volgens mijn berekeningen %reading_time% leestijd)"
+
+#: post-teaser.php:45
+msgid "This is a preview of <q>%title%</q>. <a href=\"%permalink%\" title=\"Permanent Link: %plain_title%\" rel=\"bookmark\">Read the full post (%word_image_count%, estimated %reading_time% reading time)</a>"
+msgstr "Dit is een preview van <q>%title%</q>. <a href=\"%permalink%\" title=\"Permanente link: %plain_title%\" rel=\"bookmark\">Lees het volledige bericht (%word_image_count%, volgens mijn berekeningen %reading_time% leestijd)</a>"
+
+#: post-teaser.php:47
+msgid " mins"
+msgstr "minuten"
+
+#: post-teaser.php:48
+msgid " secs"
+msgstr "seconden"
+
+#: post-teaser.php:76
+#: post-teaser.php:211
+msgid "Update Options"
+msgstr "Wijzig Opties"
+
+#: post-teaser.php:92
+#: post-teaser.php:210
+msgid "Reset to defaults"
+msgstr "Standaardconfiguratie herstellen"
+
+#: post-teaser.php:99
+msgid "Post Teaser"
+msgstr "Post Teaser"
+
+#: post-teaser.php:104
+msgid "Settings saved."
+msgstr "Instellingen opgeslagen."
+
+#: post-teaser.php:104
+msgid "View site &#187;"
+msgstr "Ga naar site &#187;"
+
+#: post-teaser.php:109
+msgid "Post Teaser Options"
+msgstr "Opties voor Post Teaser"
+
+#: post-teaser.php:111
+msgid "You can configure Post Teaser here. You might also be interested in <a href=\"http://dev.wp-plugins.org/wiki/PostTeaser\" title=\"The Wiki Documentation page for Post Teaser\">viewing the latest documentation</a>."
+msgstr "Post Teaser kan hier geconfigureerd worden. Wie weet, misschien interesseert <a href=\"http://dev.wp-plugins.org/wiki/PostTeaser\" title=\"Meer over Post Teaser in de Wiki\">de wiki-gewijze up-to-date documentatie</a> je wel."
+
+#: post-teaser.php:115
+msgid "Basic settings"
+msgstr "Basisinstellingen"
+
+#: post-teaser.php:117
+#, php-format
+msgid "I would like the teaser to be as close to %s words as possible."
+msgstr "Ik wens dat de teaser qua lengte zo dicht mogelijk in de buurt komt van %s woorden."
+
+#: post-teaser.php:120
+msgid "Placeholders"
+msgstr "Placeholders"
+
+#: post-teaser.php:122
+msgid "These will be replaced with the appropriate values when the plugin runs."
+msgstr "Deze zullen vervangen worden door de overeenkomstige waarden wanneer de plugin z&#8217;n werk doet."
+
+#: post-teaser.php:126
+msgid "The title of the post"
+msgstr "De titel van het bericht"
+
+#: post-teaser.php:129
+msgid "The title in plain text with no <abbr title=\"Hypertext Markup Language\">HTML</abbr> (to go in the <code>title</code> attribute of a link, for instance)"
+msgstr "De titel in platte tekst, zonder <abbr title=\"Hypertext Markup Language\">HTML</abbr> (voor in het <code>title</code>-attribuut van een link, om maar iets te noemen)"
+
+#: post-teaser.php:132
+msgid "The <abbr title=\"Uniform Resource Identifier\">URI</abbr> of the post"
+msgstr "De <abbr title=\"Internationalized Resource Identifier\">IRI</abbr> van het bericht"
+
+#: post-teaser.php:135
+msgid "An estimation of how long it will take to read"
+msgstr "Een schatting hoe lang het duurt om het bericht te lezen"
+
+#: post-teaser.php:138
+msgid "A count of the number of words and images in the post"
+msgstr "Het aantal woorden en afbeeldingen gebruikt in het bericht"
+
+#: post-teaser.php:145
+msgid "If the post is made into a teaser, I want the message to be in the following format:"
+msgstr "Als er een teaser van het bericht wordt gemaakt, wens ik dat het bericht in volgend formaat is:"
+
+#: post-teaser.php:150
+msgid "If the post is displayed in full, I want the message to be in the following format:"
+msgstr "Als het volledige bericht wordt getoond, wens ik dat het bericht in volgend formaat is:"
+
+#: post-teaser.php:157
+msgid "Fine tuning"
+msgstr "Fijnstemming"
+
+#: post-teaser.php:159
+msgid "Show seconds like this:"
+msgstr "Toon seconden als volgt:"
+
+#: post-teaser.php:161
+msgid "Show minutes like this:"
+msgstr "Toon minuten als volgt:"
+
+#: post-teaser.php:181
+msgid "Show word and image counts like this:"
+msgstr "Toon aantal woorden en afbeelding als volgt:"
+
+#: post-teaser.php:187
+msgid " and "
+msgstr " en "
+
+#: post-teaser.php:193
+#: post-teaser.php:195
+#: post-teaser.php:281
+msgid "words"
+msgstr "woorden"
+
+#: post-teaser.php:193
+#: post-teaser.php:195
+#: post-teaser.php:281
+msgid "images"
+msgstr "afbeeldingen"
+
+#: post-teaser.php:206
+msgid "Show the count of images or words, even if it's zero"
+msgstr "Toon het aantal woorden of afbeeldingen, zelfs als het er nul zijn"
+
+#: post-teaser.php:278
+msgid "An <em>example<\\/em> post"
+msgstr "Een <em>voorbeeldje<\\/em> van een bericht"
+
+#: post-teaser.php:279
+msgid "An example post"
+msgstr "Een voorbeeldje van een bericht"
+
+#: post-teaser.php:289
+#: post-teaser.php:302
+msgid "Preview"
+msgstr "Preview"
+
+#: post-teaser.php:330
+msgid "Do you really want to reset all your configuration to the default values?"
+msgstr "Ben je zeker dat je de standaardinstellingen wil herstellen?"
+
+#: post-teaser.php:444
+msgid " word"
+msgstr " woord"
+
+#: post-teaser.php:444
+msgid " words"
+msgstr " woorden"
+
+#: post-teaser.php:451
+msgid " image"
+msgstr " afbeelding"
+
+#: post-teaser.php:451
+msgid " images"
+msgstr " afbeeldingen"
+

@@ -1,0 +1,352 @@
+# Translation of the WordPress plugin Post Teaser 4.1.0 by WeyHan Ng.
+# Copyright (C) 2010 WeyHan Ng
+# This file is distributed under the same license as the Post Teaser package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Post Teaser 4.1.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/post-teaser\n"
+"POT-Creation-Date: 2010-10-02 20:46+0000\n"
+"PO-Revision-Date: 2010-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: post-teaser.php:49
+msgid ""
+"<a href=\"%permalink%\" title=\"Permanent Link: %plain_title%\" rel="
+"\"bookmark\">Permanent link to this post</a> (%word_image_count%, estimated %"
+"reading_time% reading time)"
+msgstr ""
+
+#: post-teaser.php:50
+msgid ""
+"&nbsp;<a href=\"%permalink%\" title=\"Permanent Link: %plain_title%\" rel="
+"\"bookmark\">Read more...</a> <i>(%word_image_count%, estimated %reading_time"
+"% reading time)</i>"
+msgstr ""
+
+#: post-teaser.php:51
+msgid ""
+"This is a preview of <q>%title%</q>. <a href=\"%permalink%\" title="
+"\"Permanent Link: %plain_title%\" rel=\"bookmark\">Read the full post (%"
+"word_image_count%, estimated %reading_time% reading time)</a>"
+msgstr ""
+
+#: post-teaser.php:53
+msgid " mins"
+msgstr ""
+
+#: post-teaser.php:54
+msgid " secs"
+msgstr ""
+
+#. #-#-#-#-#  plugin.pot (Post Teaser 4.1.0)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: post-teaser.php:226
+msgid "Post Teaser"
+msgstr ""
+
+#: post-teaser.php:241
+msgid "...post text before cut-off"
+msgstr ""
+
+#: post-teaser.php:243
+msgid "An <em>example<\\/em> post"
+msgstr ""
+
+#: post-teaser.php:244
+msgid "An example post"
+msgstr ""
+
+#: post-teaser.php:246 post-teaser.php:812 post-teaser.php:814
+msgid "words"
+msgstr ""
+
+#: post-teaser.php:246 post-teaser.php:812 post-teaser.php:814
+msgid "images"
+msgstr ""
+
+#: post-teaser.php:315 post-teaser.php:328 post-teaser.php:341
+msgid "Preview"
+msgstr ""
+
+#: post-teaser.php:547
+msgid ""
+"Do you really want to reset all your configuration to the default values?"
+msgstr ""
+
+#: post-teaser.php:562
+msgid "Settings saved."
+msgstr ""
+
+#: post-teaser.php:562
+msgid "View site &#187;"
+msgstr ""
+
+#: post-teaser.php:567
+msgid "Post Teaser Settings"
+msgstr ""
+
+#: post-teaser.php:569
+msgid ""
+"You can configure Post Teaser here. You might also be interested in <a href="
+"\"http://wordpress.org/extend/plugins/post-teaser/\" title=\"The "
+"Documentation page for Post Teaser\">viewing the latest documentation</a> or "
+"the <a href=\"http://wordpress.org/extend/plugins/post-teaser/faq/\" title="
+"\"The frequently asked question for Post Teaser\">FAQ</a>."
+msgstr ""
+
+#: post-teaser.php:573
+msgid "Basic settings"
+msgstr ""
+
+#: post-teaser.php:575
+#, php-format
+msgid "I would like the teaser to be as close to %s words as possible."
+msgstr ""
+
+#: post-teaser.php:578
+msgid "Placeholders"
+msgstr ""
+
+#: post-teaser.php:580
+msgid ""
+"These will be replaced with the appropriate values when the plugin runs."
+msgstr ""
+
+#: post-teaser.php:584
+msgid "The title of the post"
+msgstr ""
+
+#: post-teaser.php:587
+msgid ""
+"The title in plain text with no <abbr title=\"Hypertext Markup Language"
+"\">HTML</abbr> (to go in the <code>title</code> attribute of a link, for "
+"instance)"
+msgstr ""
+
+#: post-teaser.php:590
+msgid "The <abbr title=\"Uniform Resource Identifier\">URI</abbr> of the post"
+msgstr ""
+
+#: post-teaser.php:593
+msgid "An estimation of how long it will take to read"
+msgstr ""
+
+#: post-teaser.php:596
+msgid "A count of the number of words and images in the post"
+msgstr ""
+
+#: post-teaser.php:603
+msgid ""
+"If the post is made into a teaser, I want the message to be in the following "
+"format:"
+msgstr ""
+
+#: post-teaser.php:608
+msgid ""
+"If read more link is enabled, I want the message to be in the following "
+"format:"
+msgstr ""
+
+#: post-teaser.php:613
+msgid ""
+"If the post is displayed in full, I want the message to be in the following "
+"format:"
+msgstr ""
+
+#: post-teaser.php:620
+msgid "Tease message control"
+msgstr ""
+
+#: post-teaser.php:628
+msgid "Show read more link at the end of teased post"
+msgstr ""
+
+#: post-teaser.php:628
+msgid "(immediately following post text with no line-breaks)"
+msgstr ""
+
+#: post-teaser.php:637
+msgid "Show post statistics as block"
+msgstr ""
+
+#: post-teaser.php:637
+msgid "(original style teaser massage with paragraph break after post text)"
+msgstr ""
+
+#: post-teaser.php:646
+msgid "Show post statistic block before post"
+msgstr ""
+
+#: post-teaser.php:646
+msgid "(by default post statistic block appears after post)"
+msgstr ""
+
+#: post-teaser.php:655
+msgid "Omit post statistics for fullpost"
+msgstr ""
+
+#: post-teaser.php:655
+msgid "(suppress post statistic if fullpost is showned)"
+msgstr ""
+
+#: post-teaser.php:660
+msgid "Advance tease control"
+msgstr ""
+
+#: post-teaser.php:663
+msgid ""
+"The filters below follows the precedence (priority) as it is ordered below "
+"if there are confilcts in the filters setting"
+msgstr ""
+
+#: post-teaser.php:665
+msgid "(i.e. the first filter overwrites the second and so on)"
+msgstr ""
+
+#: post-teaser.php:674
+msgid "Control tease in homepage"
+msgstr ""
+
+#: post-teaser.php:674
+msgid "(allows disabling tease or force fullpost on homepage)"
+msgstr ""
+
+#: post-teaser.php:683
+msgid "Disable tease in homepage"
+msgstr ""
+
+#: post-teaser.php:692
+msgid "Show fullpost in homepage"
+msgstr ""
+
+#: post-teaser.php:701
+msgid "Use filters to disable tease"
+msgstr ""
+
+#: post-teaser.php:701
+msgid "(prevent PostTeaser from processing matched post)"
+msgstr ""
+
+#: post-teaser.php:710
+msgid "Disable tease for categories and/or tags excluded in the list"
+msgstr ""
+
+#: post-teaser.php:710 post-teaser.php:750
+msgid "(If unchecked categories and/or tags in the list is inclusive)"
+msgstr ""
+
+#: post-teaser.php:713 post-teaser.php:753
+msgid "In archive pages of category:"
+msgstr ""
+
+#: post-teaser.php:713 post-teaser.php:753
+msgid "(comma separated list in any combination of category name, id, or slug)"
+msgstr ""
+
+#: post-teaser.php:721 post-teaser.php:761
+msgid "Always apply filter to post even in non-category archive pages"
+msgstr ""
+
+#: post-teaser.php:721 post-teaser.php:731 post-teaser.php:761
+#: post-teaser.php:771
+msgid "(e.g. in homepage)"
+msgstr ""
+
+#: post-teaser.php:724 post-teaser.php:764
+msgid "In archive pages of tag:"
+msgstr ""
+
+#: post-teaser.php:724 post-teaser.php:764
+msgid "(comma separated list in any combination of tag name, id, or slug)"
+msgstr ""
+
+#: post-teaser.php:731 post-teaser.php:771
+msgid "Always apply filter to post even in non-tag archive pages"
+msgstr ""
+
+#: post-teaser.php:741
+msgid "Use filters to force fullpost"
+msgstr ""
+
+#: post-teaser.php:741
+msgid "(disable tease but process post for statistic)"
+msgstr ""
+
+#: post-teaser.php:750
+msgid "Show fullpost for categories and/or tags excluded in the list"
+msgstr ""
+
+#: post-teaser.php:776
+msgid "Fine tuning"
+msgstr ""
+
+#: post-teaser.php:778
+msgid "Show seconds like this:"
+msgstr ""
+
+#: post-teaser.php:780
+msgid "Show minutes like this:"
+msgstr ""
+
+#: post-teaser.php:800
+msgid "Show word and image counts like this:"
+msgstr ""
+
+#: post-teaser.php:806
+msgid " and "
+msgstr ""
+
+#: post-teaser.php:825
+msgid "Show the count of images or words, even if it's zero"
+msgstr ""
+
+#: post-teaser.php:831
+msgid "Reset to defaults"
+msgstr ""
+
+#: post-teaser.php:832
+msgid "Update Options"
+msgstr ""
+
+#: post-teaser.php:1018
+msgid " word"
+msgstr ""
+
+#: post-teaser.php:1018
+msgid " words"
+msgstr ""
+
+#: post-teaser.php:1025
+msgid " image"
+msgstr ""
+
+#: post-teaser.php:1025
+msgid " images"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://wordpress.org/extend/plugins/post-teaser/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Post Teaser generates a preview or \"teaser\" of a post for the main, "
+"archive and category pages, with a link underneath to go to the full post "
+"page. It includes features to generate a word count, image count, and an "
+"estimated reading time."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "WeyHan Ng"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://sandboxblogger.com/"
+msgstr ""

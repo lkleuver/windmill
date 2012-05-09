@@ -1,0 +1,188 @@
+/*
+Theme Name: Windmill
+Theme URI: http://kyu.nl
+Description: bla
+Version: 1.0
+License: owned by the windmill organisation
+License URI: license.txt
+Tags: black, blue, white, two-columns, fixed-width, custom-header, custom-background, threaded-comments, sticky-post, translation-ready, microformats, rtl-language-support, editor-style, custom-menu
+*/
+
+
+/* =Reset default browser CSS. Based on work by Eric Meyer: http://meyerweb.com/eric/tools/css/reset/index.html
+-------------------------------------------------------------- */
+
+@import url("reset.css");
+@import url("typography.css");
+
+body {
+  font-family: Helvetica, arial;
+  background: #f1f0eb url("images/header/bg.jpg") repeat-x left top;
+}
+
+/* HEADER */
+
+  #header h1 {
+    padding: 0; margin: 0;
+  }
+
+  #header {
+    height: 448px;
+    background: transparent url("images/header/header2012.jpg") no-repeat left top;
+  }
+
+  .logo {
+    display: block;
+    width: 188px;
+    height: 111px;
+    background: transparent url("images/header/windmilllogo.png") no-repeat left top;
+    text-decoration: none;
+  }
+  .skip-link {
+    display: none;
+  }
+
+/* menu */
+
+  #access {
+    width: 352px;
+    overflow: hidden;
+    background: transparent url("images/menu/top.png") no-repeat left top;
+  }
+
+  #access div.main {
+    padding: 64px 0 48px 0;
+    background: transparent url("images/menu/main_bottom.png") no-repeat left bottom;
+    width: 176px;
+    overflow: hidden;
+    float: left;
+  }
+  #access div.main ul {
+    background-color: #f1f0eb;
+  }
+  
+  #access div.main ul li {
+    background-color: #f1f0eb;
+    padding: 0 0 8px 32px;
+    overflow: hidden;
+  }
+  
+  #access div.main ul li a {
+    color: #888786;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  #access div.sub {
+    padding: 96px 0 48px 0;
+    background: transparent url("images/menu/sub_bottom.png") no-repeat left bottom;
+    width: 176px;
+    overflow: hidden;
+    float: left;
+  }
+  
+  #access div.sub ul {
+    background-color: #ff4100;
+  }
+  
+  #access div.sub ul li {
+    padding: 0 0 8px 32px;
+    background-color: #ff4100;
+    overflow: hidden;
+  }
+  
+  #access div.sub ul li a {
+    color: #f1f0eb;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+
+  #access ul li a:hover,  #access ul li.current_page_item a {
+    color: #ff4100;
+  }  
+
+ 
+  
+  #access ul li.current_page_item ul {
+    display: block;
+    float: right;
+    width: 176px;
+  }
+  
+  
+/* CONTENT */
+  #container {
+    padding: 32px 0 32px 176px;
+    overflow: hidden;
+  }
+
+  #content {
+    background-color: #fff;
+    width: 544px;
+    float: left;
+    margin-right: 16px;
+  }
+  
+  #sidebar {
+    width: 256px;
+    float: left;
+  }
+
+/* CTA */
+  div.cta {
+    width: 256px;
+    margin-bottom: 16px;
+    background-color: #ff4100;
+  }
+  
+  div.cta ul li {
+    padding: 16px;
+    border-bottom: 1px solid #ff7a4d;
+  }
+  div.cta ul li:last-child{ border: 0;}
+
+  div.cta ul li a {
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    padding: 4px 24px 4px 0;
+    background: transparent url("images/icon/arrow.png") no-repeat right 4px;
+  }
+  div.cta ul li a:hover { text-decoration: underline;}  
+  div.cta ul li.icon {
+    padding-left: 48px;
+    background: transparent url("images/icon/heart.png") no-repeat 16px center;
+  }
+  
+  div.cta ul li.icon.team {
+    background-image: url("images/icon/team.png");
+  }
+
+/* TWEETS */
+
+  div.tweets {
+    background-color: #5a5957;
+    padding: 16px;
+  }
+  
+  div.tweets h2 {
+    padding: 0 0 16px 48px;
+    background: transparent url("images/icon/twitter.png") no-repeat left top;
+    color: #00bca1;
+    font-size: 24px;
+    font-weight: normal;
+  }
+  
+  div.tweets div.tweet {
+    margin-bottom: 16px;
+  }
+  
+  div.tweets div.tweet p {
+    padding: 0 0 4px 0;
+    color:#e8e6e3;
+  }
+
+  div.tweets div.tweet a.timestamp {
+    color: #00bca1;
+  }

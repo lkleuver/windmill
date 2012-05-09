@@ -1,0 +1,175 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Post Teaser 3.3\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2008-04-27 05:39+0100\n"
+"Last-Translator: Mansour Sarr <francais78@hotmail.com>\n"
+"Language-Team: Jonathan Leighton <turnip@turnipspatch.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: post-teaser.php:44
+msgid "<a href=\"%permalink%\" title=\"Permanent Link: %plain_title%\" rel=\"bookmark\">Permanent link to this post</a> (%word_image_count%, estimated %reading_time% reading time)"
+msgstr "<a href=\"%permalink%\" title=\"Permanent Link: %plain_title%\" rel=\"bookmark\">Permanent länk till detta inlägg</a> (%word_image_count%, beräknad %reading_time% läsningstid)"
+
+#: post-teaser.php:45
+msgid "This is a preview of <q>%title%</q>. <a href=\"%permalink%\" title=\"Permanent Link: %plain_title%\" rel=\"bookmark\">Read the full post (%word_image_count%, estimated %reading_time% reading time)</a>"
+msgstr "Det här är en förhandsvisning av <q>%title%</q>. <a href=\"%permalink%\" title=\"Permanent Link: %plain_title%\" rel=\"bookmark\">Läs mer (%word_image_count%, beräknad %reading_time% lästid)</a>"
+
+#: post-teaser.php:47
+msgid " mins"
+msgstr "min."
+
+#: post-teaser.php:48
+msgid " secs"
+msgstr "sek."
+
+#: post-teaser.php:76
+#: post-teaser.php:211
+msgid "Update Options"
+msgstr "Uppdatera Val"
+
+#: post-teaser.php:92
+#: post-teaser.php:210
+msgid "Reset to defaults"
+msgstr "Återställa till standard"
+
+#: post-teaser.php:99
+msgid "Post Teaser"
+msgstr "Post Teaser"
+
+#: post-teaser.php:104
+msgid "Settings saved."
+msgstr "Insättningarna sparade."
+
+#: post-teaser.php:104
+msgid "View site &#187;"
+msgstr "Visa sida &#187;"
+
+#: post-teaser.php:109
+msgid "Post Teaser Options"
+msgstr "Post Teaser Val"
+
+#: post-teaser.php:111
+msgid "You can configure Post Teaser here. You might also be interested in <a href=\"http://dev.wp-plugins.org/wiki/PostTeaser\" title=\"The Wiki Documentation page for Post Teaser\">viewing the latest documentation</a>."
+msgstr "Här kan du konfigurera Post Teaser. Du möjligen kan vara intresserad av att <a href=\"http://dev.wp-plugins.org/wiki/PostTeaser\" title=\"The Wiki Documentation page for Post Teaser\">läsa den senaste dokumentationen</a>."
+
+#: post-teaser.php:115
+msgid "Basic settings"
+msgstr "Grundläggande inställningar"
+
+#: post-teaser.php:117
+#, php-format
+msgid "I would like the teaser to be as close to %s words as possible."
+msgstr "Jag skulle vilja att teasern ska vara så nära %s ord som möjligt"
+
+#: post-teaser.php:120
+msgid "Placeholders"
+msgstr "Platsbehållarna"
+
+#: post-teaser.php:122
+msgid "These will be replaced with the appropriate values when the plugin runs."
+msgstr "Dessa ska ersättas med de lämpliga värden när tillägget körs."
+
+#: post-teaser.php:126
+msgid "The title of the post"
+msgstr "Inläggets titel"
+
+#: post-teaser.php:129
+msgid "The title in plain text with no <abbr title=\"Hypertext Markup Language\">HTML</abbr> (to go in the <code>title</code> attribute of a link, for instance)"
+msgstr "Titeln i vanlig text utan <abbr title=\"Hypertext Markup Language\">HTML</abbr> (att gå in i <code>titeln</code> attribut av en länk, t.ex)"
+
+#: post-teaser.php:132
+msgid "The <abbr title=\"Uniform Resource Identifier\">URI</abbr> of the post"
+msgstr "Inläggets<abbr title=\"Uniform Resource Identifier\">URI</abbr> "
+
+#: post-teaser.php:135
+msgid "An estimation of how long it will take to read"
+msgstr "En estimation av hur lång tid det kommer att ta att läsa"
+
+#: post-teaser.php:138
+msgid "A count of the number of words and images in the post"
+msgstr "En räkning av antalet ord och bilder i inlägget"
+
+#: post-teaser.php:145
+msgid "If the post is made into a teaser, I want the message to be in the following format:"
+msgstr "Om inlägget visas i sin korthet, vill jag att det ska vara i följande format:"
+
+#: post-teaser.php:150
+msgid "If the post is displayed in full, I want the message to be in the following format:"
+msgstr "Om inlägget visas i sin helhet, vill jag att det vara i följande format:"
+
+#: post-teaser.php:157
+msgid "Fine tuning"
+msgstr "Fininställning"
+
+#: post-teaser.php:159
+msgid "Show seconds like this:"
+msgstr "Visa sekunderna på följande sätt:"
+
+#: post-teaser.php:161
+msgid "Show minutes like this:"
+msgstr "Visa minuterna på följande sätt:"
+
+#: post-teaser.php:181
+msgid "Show word and image counts like this:"
+msgstr "Visa ord och bild räkningarna på följande sätt:"
+
+#: post-teaser.php:187
+msgid " and "
+msgstr "och"
+
+#: post-teaser.php:193
+#: post-teaser.php:195
+#: post-teaser.php:281
+msgid "words"
+msgstr "ord"
+
+#: post-teaser.php:193
+#: post-teaser.php:195
+#: post-teaser.php:281
+msgid "images"
+msgstr "bilder"
+
+#: post-teaser.php:206
+msgid "Show the count of images or words, even if it's zero"
+msgstr "Visa räkningen av bilder och ord även om den är lika med noll"
+
+#: post-teaser.php:278
+msgid "An <em>example<\\/em> post"
+msgstr "Ett <em>exempel<\\/em> av ett inlägg"
+
+#: post-teaser.php:279
+msgid "An example post"
+msgstr "Ett exempel av ett inlägg"
+
+#: post-teaser.php:289
+#: post-teaser.php:302
+msgid "Preview"
+msgstr "Förhandsvisning"
+
+#: post-teaser.php:330
+msgid "Do you really want to reset all your configuration to the default values?"
+msgstr "Vill du verkligen återställa alla dina konfigurationer till standard värden?"
+
+#: post-teaser.php:444
+msgid " word"
+msgstr "ord"
+
+#: post-teaser.php:444
+msgid " words"
+msgstr "ord"
+
+#: post-teaser.php:451
+msgid " image"
+msgstr "bild"
+
+#: post-teaser.php:451
+msgid " images"
+msgstr "bilder"
+

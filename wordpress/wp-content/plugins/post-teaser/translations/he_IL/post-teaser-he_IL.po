@@ -1,0 +1,173 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Post Teaser 3.3\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2009-04-18 15:14+0200\n"
+"Last-Translator: Eyal Gursoy <eyalgursoy@walla.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Hebrew\n"
+"X-Poedit-Country: ISRAEL\n"
+
+#: post-teaser.php:44
+msgid "<a href=\"%permalink%\" title=\"Permanent Link: %plain_title%\" rel=\"bookmark\">Permanent link to this post</a> (%word_image_count%, estimated %reading_time% reading time)"
+msgstr "<a href=\"%permalink%\" title=\"קישור קבוע: %plain_title%\" rel=\"bookmark\">קישור קבוע אל הפוסט</a> (%word_image_count%, זמן קריאה משוער %reading_time%)"
+
+#: post-teaser.php:45
+msgid "This is a preview of <q>%title%</q>. <a href=\"%permalink%\" title=\"Permanent Link: %plain_title%\" rel=\"bookmark\">Read the full post (%word_image_count%, estimated %reading_time% reading time)</a>"
+msgstr "זוהי תצוגה מקדימה של <q>%title%</q>. <a href=\"%permalink%\" title=\"קישור קבוע: %plain_title%\" rel=\"bookmark\">המשיכו לקרוא על (%word_image_count%, זמן קריאה משוער %reading_time%)</a>"
+
+#: post-teaser.php:47
+msgid " mins"
+msgstr "דקות"
+
+#: post-teaser.php:48
+msgid " secs"
+msgstr "שניות"
+
+#: post-teaser.php:76
+#: post-teaser.php:211
+msgid "Update Options"
+msgstr "שמור הגדרות"
+
+#: post-teaser.php:92
+#: post-teaser.php:210
+msgid "Reset to defaults"
+msgstr "אחזור הגדרות ברירת מחדל"
+
+#: post-teaser.php:99
+msgid "Post Teaser"
+msgstr "Post Teaser"
+
+#: post-teaser.php:104
+msgid "Settings saved."
+msgstr "הגדרות נשמרו."
+
+#: post-teaser.php:104
+msgid "View site &#187;"
+msgstr "View site &#187;"
+
+#: post-teaser.php:109
+msgid "Post Teaser Options"
+msgstr "הגדרות Post Teaser"
+
+#: post-teaser.php:111
+msgid "You can configure Post Teaser here. You might also be interested in <a href=\"http://wordpress.org/extend/plugins/post-teaser/\" title=\"The Documentation page for Post Teaser\">viewing the latest documentation</a>."
+msgstr "תוכל להגדיר את התקציר (Post Teaser) כאן. תוכל גם לעיין <a href=\"http://dev.wp-plugins.org/wiki/PostTeaser\" title=\"עמוד התיעוד המעודכן של Post Teaser\"></a>."
+
+#: post-teaser.php:115
+msgid "Basic settings"
+msgstr "הגדרות בסיסיות"
+
+#: post-teaser.php:117
+#, php-format
+msgid "I would like the teaser to be as close to %s words as possible."
+msgstr "אני מעוניין שאורך התקציר יהיה קרוב ל %s כמה שאפשר"
+
+#: post-teaser.php:120
+msgid "Placeholders"
+msgstr "תגיות להחלפה"
+
+#: post-teaser.php:122
+msgid "These will be replaced with the appropriate values when the plugin runs."
+msgstr "יוחלפו בערך המתאים כאשר התוסף ירוץ"
+
+#: post-teaser.php:126
+msgid "The title of the post"
+msgstr "הכותרת של הפוסט"
+
+#: post-teaser.php:129
+msgid "The title in plain text with no <abbr title=\"Hypertext Markup Language\">HTML</abbr> (to go in the <code>title</code> attribute of a link, for instance)"
+msgstr "כיתוב בטקסט פשוט ללא <abbr title=\"Hypertext Markup Language\">HTML</abbr> (שתוכנס למאפיין <code>title</code> של קישור, לדוגמא)"
+
+#: post-teaser.php:132
+msgid "The <abbr title=\"Uniform Resource Identifier\">URI</abbr> of the post"
+msgstr "ה- <abbr title=\"Uniform Resource Identifier\">URI</abbr> של הפוסט"
+
+#: post-teaser.php:135
+msgid "An estimation of how long it will take to read"
+msgstr "הערכה כמה זמן יקח לקרוא את הפוסט"
+
+#: post-teaser.php:138
+msgid "A count of the number of words and images in the post"
+msgstr "מספר המילים והתמונות בפוסט"
+
+#: post-teaser.php:145
+msgid "If the post is made into a teaser, I want the message to be in the following format:"
+msgstr "אם נוצר תקציר עבור הפוסט, אני מעוניין שההודעה תוצג כך:"
+
+#: post-teaser.php:150
+msgid "If the post is displayed in full, I want the message to be in the following format:"
+msgstr "אם מוצג הפוסט, אני מעוניין שההודעה תוצג כך:"
+
+#: post-teaser.php:157
+msgid "Fine tuning"
+msgstr "טיוב הגדרות"
+
+#: post-teaser.php:159
+msgid "Show seconds like this:"
+msgstr "הצג שניות כך:"
+
+#: post-teaser.php:161
+msgid "Show minutes like this:"
+msgstr "הצג דקות כך:"
+
+#: post-teaser.php:181
+msgid "Show word and image counts like this:"
+msgstr "הצג מילים ותמונות כך:"
+
+#: post-teaser.php:187
+msgid " and "
+msgstr " ו-"
+
+#: post-teaser.php:193
+#: post-teaser.php:195
+#: post-teaser.php:281
+msgid "words"
+msgstr "מילים"
+
+#: post-teaser.php:193
+#: post-teaser.php:195
+#: post-teaser.php:281
+msgid "images"
+msgstr "תמונות"
+
+#: post-teaser.php:206
+msgid "Show the count of images or words, even if it's zero"
+msgstr "הצג מספר מילים ותמונות, אפילו אם אפס"
+
+#: post-teaser.php:278
+msgid "An <em>example<\\/em> post"
+msgstr "פוסט <en>לדוגמא</en>"
+
+#: post-teaser.php:279
+msgid "An example post"
+msgstr "פוסט לדוגמא"
+
+#: post-teaser.php:289
+#: post-teaser.php:302
+msgid "Preview"
+msgstr "תצוגה מקדימה"
+
+#: post-teaser.php:330
+msgid "Do you really want to reset all your configuration to the default values?"
+msgstr "האם אתה בטוח שאתה רוצה לאחזר את הגדרות ברירת המחדל?"
+
+#: post-teaser.php:444
+msgid " word"
+msgstr "מילה"
+
+#: post-teaser.php:444
+msgid " words"
+msgstr "מילים"
+
+#: post-teaser.php:451
+msgid " image"
+msgstr "תמונה"
+
+#: post-teaser.php:451
+msgid " images"
+msgstr "תמונות"
+
