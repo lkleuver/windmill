@@ -3,10 +3,68 @@
 	<head>
 	<meta charset="UTF-8" />
 	<title>{% block title %}Windmill Windup 2012{% endblock %}</title>
+  <link rel="stylesheet" type="text/css" href="{{base}}/style/master.css" />
+
 	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
 	{% block header %}{% endblock %}
 </head>
 <body>
+  <div id="header">
+    
+  </div>
+  <div id="nav">
+    <ul class="menu">
+      <li><a href="{{base}}/">Home</a></li>
+      <li><a href="{{base}}/about">About Us</a>
+        <ul>
+          <li><a href="{{base}}/about#whatiswindmillwindup">What is Windmill Windup?</a><li>
+          <li><a href="{{base}}/about#">What is Ultimate Frisbee?</a></li>
+          <li><a href="{{base}}/about#">Green Windmill</a></li>
+          <li><a href="{{base}}/about#">Charity</a></li>
+          <li><a href="{{base}}/about#">History</a></li>
+          <li><a href="{{base}}/about#">Our Sponsors</a></li>
+          <li><a href="{{base}}/about#">Our Crew</a></li>
+          <li><a href="{{base}}/about#">Volunteers</a></li>
+        </ul>
+      </li>
+      <li><a href="{{base}}/tourney">Tourney</a></li>
+      <li><a href="{{base}}/media">Photos &amp; Video</a></li>
+      <li><a href="{{base}}/gear">Windmill gear</a></li>
+      <li><a href="{{base}}/amsterdam">Amsterdam</a></li>
+      <li><a href="{{base}}/contact">Contact</a></li>
+      <li><a href="{{base}}/press">Press</a></li>
+    </ul>
+    <ul class="social">
+      <li>Tw</li>
+      <li>Fb</li>
+    </ul>
+  </div>
+  <div id="site">
   	{% block content %} base {% endblock %}
+  </div>
+  
+  <div id="fb-root"></div>
+  <script>
+    window.fbAsyncInit = function() {
+      FB.init({
+        appId      : '305820299501025', // App ID
+        channelUrl : '//www.windmillwindup.com/channel.html', // Channel File
+        status     : true, // check login status
+        cookie     : true, // enable cookies to allow the server to access the session
+        xfbml      : true  // parse XFBML
+      });
+
+      // Additional initialization code here
+    };
+
+    // Load the SDK Asynchronously
+    (function(d){
+       var js, id = 'facebook-jssdk', ref = d.getElementsByTagName('script')[0];
+       if (d.getElementById(id)) {return;}
+       js = d.createElement('script'); js.id = id; js.async = true;
+       js.src = "//connect.facebook.net/en_US/all.js";
+       ref.parentNode.insertBefore(js, ref);
+     }(document));
+  </script>
 </body>
 </html>

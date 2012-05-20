@@ -1,0 +1,99 @@
+  html, body {
+    width: 100%;
+    height: 100%;
+  }
+
+  body {
+      background: #412E20 url("img/sky.jpg") repeat-x left top;
+      text-align: center;
+  }
+
+  span.data, .hidden {
+    display: none;
+  }
+
+  #header {
+    background: transparent url("img/header.jpg") no-repeat center top;
+    height: 203px;
+  }
+
+  /* NAV :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+  #nav {
+    padding-top: 8px;
+    width: 960px;
+    margin: auto;
+    text-align: left;
+  }
+
+  #nav ul.menu {
+    width: 672px;
+    float: left;
+    overflow: hidden;
+    margin-right: 32px;
+  }
+
+  ul.menu li {
+    display: inline-block;
+    height: 30px;
+    margin-right: 0px;
+    background: #201712;
+    position: relative;
+  }
+
+  ul.menu li a {
+    display:block;
+    text-decoration: none;
+    padding: 10px 8px 0 8px;
+    color: #f08201;
+  }
+
+  ul.menu li ul {
+    display: none;
+    position: absolute;
+    left: 40px;
+    top: 40px;
+    z-index: 1;
+  }
+  
+  ul.menu li:hover ul {
+    display: block;
+  }
+
+
+  #nav ul.social {
+    width: 256px;
+    float: left;
+    overflow: hidden;
+  }
+
+
+
+
+  #site {
+    width: 960px;
+    margin: auto;
+    text-align: left;
+  }
+  
+  #main-content {
+    width: 672px;
+    float: left;
+    margin-right: 32px;
+    overflow: hidden;
+  }
+  
+  #side-content {
+    width: 256px;
+    float: left;
+    overflow: hidden;
+  }
+  
+  
+  .block {
+    background-color: #fff;
+    padding: 32px;
+    margin-bottom: 16px;
+    
+  }
+  
+  

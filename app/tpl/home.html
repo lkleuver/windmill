@@ -1,5 +1,25 @@
 {% extends "base.html" %}
 
 {% block content %}
-  home test
+
+  <div id="main-content">
+    <div class="welcome block">
+      <h1>{{welcome.post_title}}</h1>
+      {{welcome.post_content|raw}}
+    </div>
+
+    <div class="news block">
+      <h1>The News</h1>
+      {% for item in items %}
+        <div class="post">
+          <h3><a href="/news/post/{{item.post_name}}">{{item.post_title}}</a></h3>
+          {{item.post_excerpt|raw}}
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+  
+  <div id="side-content">
+    bla bla
+  </div>
 {% endblock %}

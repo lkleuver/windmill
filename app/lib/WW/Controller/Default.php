@@ -11,9 +11,15 @@ class WW_Controller_Default extends WW_Controller_Base {
 	}
 	
 	
-	public function showTemplate($name) {
-		$template = $this->output->loadTemplate($name.'.html');
-		$template->display(array());
+	public function showTemplate($section, $action) {
+		if($section == "content") {
+			$content = Windmill::$bridge->getPageContent($action);
+			$template = $this->output->loadTemplate('content.html');
+			$template->display(array("content" => $content));
+		}else{
+			$template = $this->output->loadTemplate($name.'.html');
+			$template->display(array());
+		}
 	}
 	
 }

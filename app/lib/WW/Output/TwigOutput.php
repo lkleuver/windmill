@@ -22,6 +22,9 @@ class WW_Output_TwigOutput {
 		$this->twig->addFilter('timeFormat', new Twig_Filter_Function('SC9_Output_TwigOutput::timeFormat'));
 	}
 
+	public function setBase($s) {
+		$this->addGlobal("base", $s);
+	}
 
 	public function loadTemplate($src) {
 		return $this->twig->loadTemplate($src);		

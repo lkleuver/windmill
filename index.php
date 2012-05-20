@@ -9,7 +9,14 @@ ini_set('display_errors', "1");
 
 include "app/Windmill.php";
 
-$config = array();
+$config = array("siteroot" => "",
+	"db" => array(
+		"username" => "root",
+		"password" => "",
+		"server" => "127.0.0.1",
+		"database" => "d60593311"
+	)
+);
 
 
 $ww = new Windmill($config);

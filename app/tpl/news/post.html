@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+  <div id="main-content">
+    
+    <div class="block">
+      <h1>{{post.post_title}}</h1>
+      {{post.post_content|raw}}
+    </div>
+    
+    <div class="block">
+      <div class="fb-comments" data-href="http://windmillwindup.com/news/post/{{post.post_name}}" data-num-posts="2" data-width="608"></div>
+    </div>
+    
+  </div>
+  
+  <div id="side-content">
+    bla bla
+  </div>
+{% endblock %}
