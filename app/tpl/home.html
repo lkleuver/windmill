@@ -1,5 +1,9 @@
 {% extends "base.html" %}
 
+{% block header %}
+  <link rel="stylesheet" type="text/css" href="{{base}}/style/section/home.css" />
+{% endblock %}
+
 {% block content %}
 
   <div id="main-content">
@@ -17,6 +21,12 @@
         </div>
       {% endfor %}
     </div>
+    
+    <div class="sponsors block">
+      <h1>{{sponsors.post_title}}</h1>
+      {{sponsors.post_content|raw}}
+    </div>
+    
   </div>
   
   <div id="side-content">

@@ -11,8 +11,9 @@ class WW_Controller_Home extends WW_Controller_Base {
 		
 		$items = Windmill::$bridge->getPosts("news");
 		$welcome = Windmill::$bridge->getPageContent("welcome");
+		$sponsors = Windmill::$bridge->getPageContent("sponsors");
 		
-		$template->display(array("items" => $items, "welcome" => $welcome));
+		$template->display(array("items" => $items, "welcome" => $welcome, "sponsors" => $sponsors));
 	
 	}
 	

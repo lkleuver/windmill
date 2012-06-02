@@ -41,106 +41,111 @@ class __TwigTemplate_94613c06f1b5115fdf1101a696b15f1e extends Twig_Template
         echo "</head>
 <body>
   <div id=\"header\">
-    
+    <div></div>
   </div>
-  <div id=\"nav\">
-    <ul class=\"menu\">
-      <li><a href=\"";
-        // line 17
-        if (isset($context["base"])) { $_base_ = $context["base"]; } else { $_base_ = null; }
-        echo twig_escape_filter($this->env, $_base_, "html", null, true);
-        echo "/\">Home</a></li>
-      <li><a href=\"";
+  <div id=\"content\">
+    <div id=\"nav\">
+      <ul class=\"menu\">
+        <li><a href=\"";
         // line 18
         if (isset($context["base"])) { $_base_ = $context["base"]; } else { $_base_ = null; }
         echo twig_escape_filter($this->env, $_base_, "html", null, true);
-        echo "/about\">About Us</a>
-        <ul>
-          <li><a href=\"";
-        // line 20
+        echo "/\">Home</a></li>
+        <li><a href=\"";
+        // line 19
         if (isset($context["base"])) { $_base_ = $context["base"]; } else { $_base_ = null; }
         echo twig_escape_filter($this->env, $_base_, "html", null, true);
-        echo "/about#whatiswindmillwindup\">What is Windmill Windup?</a><li>
-          <li><a href=\"";
+        echo "/about\">About Us</a>
+          <ul>
+            <li><a href=\"";
         // line 21
         if (isset($context["base"])) { $_base_ = $context["base"]; } else { $_base_ = null; }
         echo twig_escape_filter($this->env, $_base_, "html", null, true);
-        echo "/about#\">What is Ultimate Frisbee?</a></li>
-          <li><a href=\"";
+        echo "/about#whatiswindmillwindup\">What is Windmill Windup?</a><li>
+            <li><a href=\"";
         // line 22
         if (isset($context["base"])) { $_base_ = $context["base"]; } else { $_base_ = null; }
         echo twig_escape_filter($this->env, $_base_, "html", null, true);
-        echo "/about#\">Green Windmill</a></li>
-          <li><a href=\"";
+        echo "/about#\">What is Ultimate Frisbee?</a></li>
+            <li><a href=\"";
         // line 23
         if (isset($context["base"])) { $_base_ = $context["base"]; } else { $_base_ = null; }
         echo twig_escape_filter($this->env, $_base_, "html", null, true);
-        echo "/about#\">Charity</a></li>
-          <li><a href=\"";
+        echo "/about#\">Green Windmill</a></li>
+            <li><a href=\"";
         // line 24
         if (isset($context["base"])) { $_base_ = $context["base"]; } else { $_base_ = null; }
         echo twig_escape_filter($this->env, $_base_, "html", null, true);
-        echo "/about#\">History</a></li>
-          <li><a href=\"";
+        echo "/about#\">Charity</a></li>
+            <li><a href=\"";
         // line 25
         if (isset($context["base"])) { $_base_ = $context["base"]; } else { $_base_ = null; }
         echo twig_escape_filter($this->env, $_base_, "html", null, true);
-        echo "/about#\">Our Sponsors</a></li>
-          <li><a href=\"";
+        echo "/about#\">History</a></li>
+            <li><a href=\"";
         // line 26
         if (isset($context["base"])) { $_base_ = $context["base"]; } else { $_base_ = null; }
         echo twig_escape_filter($this->env, $_base_, "html", null, true);
-        echo "/about#\">Our Crew</a></li>
-          <li><a href=\"";
+        echo "/about#\">Our Sponsors</a></li>
+            <li><a href=\"";
         // line 27
         if (isset($context["base"])) { $_base_ = $context["base"]; } else { $_base_ = null; }
         echo twig_escape_filter($this->env, $_base_, "html", null, true);
-        echo "/about#\">Volunteers</a></li>
-        </ul>
-      </li>
-      <li><a href=\"";
-        // line 30
+        echo "/about#\">Our Crew</a></li>
+            <li><a href=\"";
+        // line 28
         if (isset($context["base"])) { $_base_ = $context["base"]; } else { $_base_ = null; }
         echo twig_escape_filter($this->env, $_base_, "html", null, true);
-        echo "/tourney\">Tourney</a></li>
-      <li><a href=\"";
+        echo "/about#\">Volunteers</a></li>
+          </ul>
+        </li>
+        <li><a href=\"";
         // line 31
         if (isset($context["base"])) { $_base_ = $context["base"]; } else { $_base_ = null; }
         echo twig_escape_filter($this->env, $_base_, "html", null, true);
-        echo "/media\">Photos &amp; Video</a></li>
-      <li><a href=\"";
+        echo "/tourney\">Tourney</a></li>
+        <li><a href=\"";
         // line 32
         if (isset($context["base"])) { $_base_ = $context["base"]; } else { $_base_ = null; }
         echo twig_escape_filter($this->env, $_base_, "html", null, true);
-        echo "/gear\">Windmill gear</a></li>
-      <li><a href=\"";
+        echo "/media\">Photos &amp; Video</a></li>
+        <li><a href=\"";
         // line 33
         if (isset($context["base"])) { $_base_ = $context["base"]; } else { $_base_ = null; }
         echo twig_escape_filter($this->env, $_base_, "html", null, true);
-        echo "/amsterdam\">Amsterdam</a></li>
-      <li><a href=\"";
+        echo "/gear\">Windmill gear</a></li>
+        <li><a href=\"";
         // line 34
         if (isset($context["base"])) { $_base_ = $context["base"]; } else { $_base_ = null; }
         echo twig_escape_filter($this->env, $_base_, "html", null, true);
-        echo "/contact\">Contact</a></li>
-      <li><a href=\"";
+        echo "/amsterdam\">Amsterdam</a></li>
+        <li><a href=\"";
         // line 35
         if (isset($context["base"])) { $_base_ = $context["base"]; } else { $_base_ = null; }
         echo twig_escape_filter($this->env, $_base_, "html", null, true);
+        echo "/contact\">Contact</a></li>
+        <li><a href=\"";
+        // line 36
+        if (isset($context["base"])) { $_base_ = $context["base"]; } else { $_base_ = null; }
+        echo twig_escape_filter($this->env, $_base_, "html", null, true);
         echo "/press\">Press</a></li>
-    </ul>
-    <ul class=\"social\">
-      <li>Tw</li>
-      <li>Fb</li>
-    </ul>
-  </div>
-  <div id=\"site\">
-  \t";
-        // line 43
-        $this->displayBlock('content', $context, $blocks);
+      </ul>
+      <ul class=\"social\">
+        <li>Tw</li>
+        <li>Fb</li>
+      </ul>
+    </div>
+    <div id=\"site\">
+    \t";
         // line 44
-        echo "  </div>
-  
+        $this->displayBlock('content', $context, $blocks);
+        // line 45
+        echo "    </div>
+    <div id=\"footer\">
+      
+    </div>
+    
+  </div>
   <div id=\"fb-root\"></div>
   <script>
     window.fbAsyncInit = function() {
@@ -179,7 +184,7 @@ class __TwigTemplate_94613c06f1b5115fdf1101a696b15f1e extends Twig_Template
     {
     }
 
-    // line 43
+    // line 44
     public function block_content($context, array $blocks = array())
     {
         echo " base ";
@@ -197,6 +202,6 @@ class __TwigTemplate_94613c06f1b5115fdf1101a696b15f1e extends Twig_Template
 
     public function getDebugInfo()
     {
-        return array (  181 => 43,  176 => 9,  170 => 5,  140 => 44,  138 => 43,  126 => 35,  121 => 34,  116 => 33,  111 => 32,  106 => 31,  101 => 30,  94 => 27,  89 => 26,  84 => 25,  79 => 24,  74 => 23,  69 => 22,  64 => 21,  59 => 20,  53 => 18,  39 => 10,  37 => 9,  30 => 6,  20 => 1,  48 => 17,  40 => 9,  35 => 8,  29 => 4,  26 => 5,);
+        return array (  186 => 44,  181 => 9,  175 => 5,  141 => 45,  139 => 44,  127 => 36,  122 => 35,  117 => 34,  112 => 33,  107 => 32,  102 => 31,  95 => 28,  90 => 27,  85 => 26,  80 => 25,  75 => 24,  70 => 23,  65 => 22,  60 => 21,  54 => 19,  49 => 18,  39 => 10,  37 => 9,  30 => 6,  26 => 5,  20 => 1,);
     }
 }

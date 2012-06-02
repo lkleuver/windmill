@@ -10,39 +10,44 @@
 </head>
 <body>
   <div id="header">
+    <div></div>
+  </div>
+  <div id="content">
+    <div id="nav">
+      <ul class="menu">
+        <li><a href="{{base}}/">Home</a></li>
+        <li><a href="{{base}}/about">About Us</a>
+          <ul>
+            <li><a href="{{base}}/about#whatiswindmillwindup">What is Windmill Windup?</a><li>
+            <li><a href="{{base}}/about#">What is Ultimate Frisbee?</a></li>
+            <li><a href="{{base}}/about#">Green Windmill</a></li>
+            <li><a href="{{base}}/about#">Charity</a></li>
+            <li><a href="{{base}}/about#">History</a></li>
+            <li><a href="{{base}}/about#">Our Sponsors</a></li>
+            <li><a href="{{base}}/about#">Our Crew</a></li>
+            <li><a href="{{base}}/about#">Volunteers</a></li>
+          </ul>
+        </li>
+        <li><a href="{{base}}/tourney">Tourney</a></li>
+        <li><a href="{{base}}/media">Photos &amp; Video</a></li>
+        <li><a href="{{base}}/gear">Windmill gear</a></li>
+        <li><a href="{{base}}/amsterdam">Amsterdam</a></li>
+        <li><a href="{{base}}/contact">Contact</a></li>
+        <li><a href="{{base}}/press">Press</a></li>
+      </ul>
+      <ul class="social">
+        <li>Tw</li>
+        <li>Fb</li>
+      </ul>
+    </div>
+    <div id="site">
+    	{% block content %} base {% endblock %}
+    </div>
+    <div id="footer">
+      
+    </div>
     
   </div>
-  <div id="nav">
-    <ul class="menu">
-      <li><a href="{{base}}/">Home</a></li>
-      <li><a href="{{base}}/about">About Us</a>
-        <ul>
-          <li><a href="{{base}}/about#whatiswindmillwindup">What is Windmill Windup?</a><li>
-          <li><a href="{{base}}/about#">What is Ultimate Frisbee?</a></li>
-          <li><a href="{{base}}/about#">Green Windmill</a></li>
-          <li><a href="{{base}}/about#">Charity</a></li>
-          <li><a href="{{base}}/about#">History</a></li>
-          <li><a href="{{base}}/about#">Our Sponsors</a></li>
-          <li><a href="{{base}}/about#">Our Crew</a></li>
-          <li><a href="{{base}}/about#">Volunteers</a></li>
-        </ul>
-      </li>
-      <li><a href="{{base}}/tourney">Tourney</a></li>
-      <li><a href="{{base}}/media">Photos &amp; Video</a></li>
-      <li><a href="{{base}}/gear">Windmill gear</a></li>
-      <li><a href="{{base}}/amsterdam">Amsterdam</a></li>
-      <li><a href="{{base}}/contact">Contact</a></li>
-      <li><a href="{{base}}/press">Press</a></li>
-    </ul>
-    <ul class="social">
-      <li>Tw</li>
-      <li>Fb</li>
-    </ul>
-  </div>
-  <div id="site">
-  	{% block content %} base {% endblock %}
-  </div>
-  
   <div id="fb-root"></div>
   <script>
     window.fbAsyncInit = function() {

@@ -1,0 +1,12 @@
+
+
+.post {
+  width: 285px;
+  float: left;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.post:nth-child(even) {
+  margin-right: 20px;
+}
