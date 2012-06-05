@@ -9,6 +9,7 @@
   <div id="main-content">
     <div class="welcome block">
       <h1>{{welcome.post_title}}</h1>
+      
       {{welcome.post_content|raw}}
     </div>
 
@@ -16,7 +17,7 @@
       <h1>The News</h1>
       {% for item in items %}
         <div class="post">
-          <h3><a href="/news/post/{{item.post_name}}">{{item.post_title}}</a></h3>
+          <h3><a href="/news/post/{{item.post_name}}">{{item.post_title}}</a><span>{{item.post_date|date("D F jS \\a\\t g:ia")}}</span></h3>
           {{item.post_excerpt|raw}}
         </div>
       {% endfor %}
@@ -30,6 +31,10 @@
   </div>
   
   <div id="side-content">
-    bla bla
+    {% for item in sidebar %}
+      <div class="sidebar-post">
+        {{item.post_content|raw}}
+      </div>
+    {% endfor %}
   </div>
 {% endblock %}

@@ -35,54 +35,88 @@
   /* NAV :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
   #nav {
     padding-top: 8px;
-    width: 900px;
+    width: 920px;
     margin: auto;
     text-align: left;
-    overflow: hidden;
   }
 
   #nav ul.menu {
-    width: 646px;
+    margin-left: 36px;
+    width: 620px;
     float: left;
-    overflow: hidden;
     margin-right: 32px;
+    position: relative;
+    z-index: 5;
   }
 
-  ul.menu li {
-    display: inline-block;
+
+  #nav ul.menu li {
+    float: left;
     height: 30px;
     margin-right: 0px;
-    background: #201712;
     position: relative;
   }
 
-  ul.menu li a {
+  #nav ul.menu li a {
     display:block;
     text-decoration: none;
     padding: 10px 8px 0 8px;
     color: #f08201;
     font-size: 12px;
   }
+  
+  #nav ul.menu li.active a {
+    color: #FFC81E;
+  }
 
-  ul.menu li ul {
+  #nav ul.menu ul {
     display: none;
     position: absolute;
-    left: 40px;
-    top: 40px;
-    z-index: 1;
+    left: 0px;
+    top: 29px;
+    width: 200px;
   }
   
-  ul.menu li:hover ul {
+  #nav ul.menu ul li {
+    float: none;
+    background-color: #0E0B06;
+    border-bottom: 1px solid #C1C1CA;
+    padding-bottom: 3px;
+  }
+  
+  #nav ul.menu ul li:hover {
+    background-color: #443025;
+  } 
+  
+  #nav ul.menu ul li a {
+    color: #C1C1CA;
+  }
+  
+  
+  #nav ul.menu li:hover ul {
     display: block;
   }
 
 
   #nav ul.social {
-    width: 219px;
+    width: 229px;
     float: left;
     overflow: hidden;
   }
+  
+  #nav ul.social li{
+    float: left;
+    padding-top: 6px;
+    width: 141px;
+    overflow: hidden;
+  }
+  
+  #nav ul.social li.twitter {
+    width: 68px;
+    padding-left:20px;
+  }
 
+  
 
 
 

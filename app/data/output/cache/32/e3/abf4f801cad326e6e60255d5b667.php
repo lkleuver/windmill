@@ -48,8 +48,9 @@ class __TwigTemplate_32e3abf4f801cad326e6e60255d5b667 extends Twig_Template
         if (isset($context["welcome"])) { $_welcome_ = $context["welcome"]; } else { $_welcome_ = null; }
         echo twig_escape_filter($this->env, $this->getAttribute($_welcome_, "post_title"), "html", null, true);
         echo "</h1>
+      
       ";
-        // line 12
+        // line 13
         if (isset($context["welcome"])) { $_welcome_ = $context["welcome"]; } else { $_welcome_ = null; }
         echo $this->getAttribute($_welcome_, "post_content");
         echo "
@@ -58,23 +59,26 @@ class __TwigTemplate_32e3abf4f801cad326e6e60255d5b667 extends Twig_Template
     <div class=\"news block\">
       <h1>The News</h1>
       ";
-        // line 17
+        // line 18
         if (isset($context["items"])) { $_items_ = $context["items"]; } else { $_items_ = null; }
         $context['_parent'] = (array) $context;
         $context['_seq'] = twig_ensure_traversable($_items_);
         foreach ($context['_seq'] as $context["_key"] => $context["item"]) {
-            // line 18
+            // line 19
             echo "        <div class=\"post\">
           <h3><a href=\"/news/post/";
-            // line 19
+            // line 20
             if (isset($context["item"])) { $_item_ = $context["item"]; } else { $_item_ = null; }
             echo twig_escape_filter($this->env, $this->getAttribute($_item_, "post_name"), "html", null, true);
             echo "\">";
             if (isset($context["item"])) { $_item_ = $context["item"]; } else { $_item_ = null; }
             echo twig_escape_filter($this->env, $this->getAttribute($_item_, "post_title"), "html", null, true);
-            echo "</a></h3>
+            echo "</a><span>";
+            if (isset($context["item"])) { $_item_ = $context["item"]; } else { $_item_ = null; }
+            echo twig_escape_filter($this->env, twig_date_format_filter($this->env, $this->getAttribute($_item_, "post_date"), "D F jS \\a\\t g:ia"), "html", null, true);
+            echo "</span></h3>
           ";
-            // line 20
+            // line 21
             if (isset($context["item"])) { $_item_ = $context["item"]; } else { $_item_ = null; }
             echo $this->getAttribute($_item_, "post_excerpt");
             echo "
@@ -84,17 +88,17 @@ class __TwigTemplate_32e3abf4f801cad326e6e60255d5b667 extends Twig_Template
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['item'], $context['_parent'], $context['loop']);
         $context = array_merge($_parent, array_intersect_key($context, $_parent));
-        // line 23
+        // line 24
         echo "    </div>
     
     <div class=\"sponsors block\">
       <h1>";
-        // line 26
+        // line 27
         if (isset($context["sponsors"])) { $_sponsors_ = $context["sponsors"]; } else { $_sponsors_ = null; }
         echo twig_escape_filter($this->env, $this->getAttribute($_sponsors_, "post_title"), "html", null, true);
         echo "</h1>
       ";
-        // line 27
+        // line 28
         if (isset($context["sponsors"])) { $_sponsors_ = $context["sponsors"]; } else { $_sponsors_ = null; }
         echo $this->getAttribute($_sponsors_, "post_content");
         echo "
@@ -103,8 +107,27 @@ class __TwigTemplate_32e3abf4f801cad326e6e60255d5b667 extends Twig_Template
   </div>
   
   <div id=\"side-content\">
-    bla bla
-  </div>
+    ";
+        // line 34
+        if (isset($context["sidebar"])) { $_sidebar_ = $context["sidebar"]; } else { $_sidebar_ = null; }
+        $context['_parent'] = (array) $context;
+        $context['_seq'] = twig_ensure_traversable($_sidebar_);
+        foreach ($context['_seq'] as $context["_key"] => $context["item"]) {
+            // line 35
+            echo "      <div class=\"sidebar-post\">
+        ";
+            // line 36
+            if (isset($context["item"])) { $_item_ = $context["item"]; } else { $_item_ = null; }
+            echo $this->getAttribute($_item_, "post_content");
+            echo "
+      </div>
+    ";
+        }
+        $_parent = $context['_parent'];
+        unset($context['_seq'], $context['_iterated'], $context['_key'], $context['item'], $context['_parent'], $context['loop']);
+        $context = array_merge($_parent, array_intersect_key($context, $_parent));
+        // line 39
+        echo "  </div>
 ";
     }
 
@@ -120,6 +143,6 @@ class __TwigTemplate_32e3abf4f801cad326e6e60255d5b667 extends Twig_Template
 
     public function getDebugInfo()
     {
-        return array (  96 => 27,  91 => 26,  86 => 23,  76 => 20,  68 => 19,  65 => 18,  60 => 17,  51 => 12,  46 => 11,  41 => 8,  38 => 7,  30 => 4,  27 => 3,);
+        return array (  128 => 39,  118 => 36,  115 => 35,  110 => 34,  100 => 28,  95 => 27,  90 => 24,  80 => 21,  69 => 20,  66 => 19,  61 => 18,  52 => 13,  46 => 11,  41 => 8,  38 => 7,  30 => 4,  27 => 3,);
     }
 }

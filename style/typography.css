@@ -22,11 +22,15 @@ h2, h3, h2 a, h3 a {
   text-decoration: none;
 }
 
-a:hover {
+a {
   text-decoration: underline;
+  color: #E9C9A5;
+}
+a:hover {
+  color: #FFC81E;
 }
 
 p {
-
+  padding-bottom: 16px;
   font-size: 14px;
 }

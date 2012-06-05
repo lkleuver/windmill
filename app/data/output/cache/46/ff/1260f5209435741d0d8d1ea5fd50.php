@@ -29,17 +29,22 @@ class __TwigTemplate_46ff1260f5209435741d0d8d1ea5fd50 extends Twig_Template
     {
         // line 4
         echo "
-  <h1>";
-        // line 5
+  <div id=\"main-content\">
+    <h1>";
+        // line 6
         if (isset($context["content"])) { $_content_ = $context["content"]; } else { $_content_ = null; }
         echo twig_escape_filter($this->env, $this->getAttribute($_content_, "post_title"), "html", null, true);
         echo "</h1>
-  ";
-        // line 6
+    ";
+        // line 7
         if (isset($context["content"])) { $_content_ = $context["content"]; } else { $_content_ = null; }
         echo $this->getAttribute($_content_, "post_content");
         echo "
+  </div>
 
+  <div id=\"side-content\">
+    bla bla
+  </div>
 ";
     }
 
@@ -55,6 +60,6 @@ class __TwigTemplate_46ff1260f5209435741d0d8d1ea5fd50 extends Twig_Template
 
     public function getDebugInfo()
     {
-        return array (  37 => 6,  32 => 5,  29 => 4,  26 => 3,);
+        return array (  38 => 7,  33 => 6,  29 => 4,  26 => 3,);
     }
 }

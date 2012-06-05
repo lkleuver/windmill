@@ -7,6 +7,13 @@
   margin-bottom: 20px;
 }
 
+.post h3 span {
+  display: block;
+  color: #E9C9A5;
+  font-size: 12px;
+}
+
+
 .post:nth-child(even) {
   margin-right: 20px;
 }

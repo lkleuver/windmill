@@ -2,7 +2,12 @@
 
 {% block content %}
 
-  <h1>{{content.post_title}}</h1>
-  {{content.post_content|raw}}
+  <div id="main-content">
+    <h1>{{content.post_title}}</h1>
+    {{content.post_content|raw}}
+  </div>
 
+  <div id="side-content">
+    bla bla
+  </div>
 {% endblock %}

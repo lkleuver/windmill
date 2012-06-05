@@ -45,101 +45,25 @@ class __TwigTemplate_94613c06f1b5115fdf1101a696b15f1e extends Twig_Template
   </div>
   <div id=\"content\">
     <div id=\"nav\">
-      <ul class=\"menu\">
-        <li><a href=\"";
+      ";
+        // line 17
+        $this->env->loadTemplate("menu.html")->display($context);
         // line 18
-        if (isset($context["base"])) { $_base_ = $context["base"]; } else { $_base_ = null; }
-        echo twig_escape_filter($this->env, $_base_, "html", null, true);
-        echo "/\">Home</a></li>
-        <li><a href=\"";
-        // line 19
-        if (isset($context["base"])) { $_base_ = $context["base"]; } else { $_base_ = null; }
-        echo twig_escape_filter($this->env, $_base_, "html", null, true);
-        echo "/about\">About Us</a>
-          <ul>
-            <li><a href=\"";
-        // line 21
-        if (isset($context["base"])) { $_base_ = $context["base"]; } else { $_base_ = null; }
-        echo twig_escape_filter($this->env, $_base_, "html", null, true);
-        echo "/about#whatiswindmillwindup\">What is Windmill Windup?</a><li>
-            <li><a href=\"";
-        // line 22
-        if (isset($context["base"])) { $_base_ = $context["base"]; } else { $_base_ = null; }
-        echo twig_escape_filter($this->env, $_base_, "html", null, true);
-        echo "/about#\">What is Ultimate Frisbee?</a></li>
-            <li><a href=\"";
-        // line 23
-        if (isset($context["base"])) { $_base_ = $context["base"]; } else { $_base_ = null; }
-        echo twig_escape_filter($this->env, $_base_, "html", null, true);
-        echo "/about#\">Green Windmill</a></li>
-            <li><a href=\"";
-        // line 24
-        if (isset($context["base"])) { $_base_ = $context["base"]; } else { $_base_ = null; }
-        echo twig_escape_filter($this->env, $_base_, "html", null, true);
-        echo "/about#\">Charity</a></li>
-            <li><a href=\"";
-        // line 25
-        if (isset($context["base"])) { $_base_ = $context["base"]; } else { $_base_ = null; }
-        echo twig_escape_filter($this->env, $_base_, "html", null, true);
-        echo "/about#\">History</a></li>
-            <li><a href=\"";
-        // line 26
-        if (isset($context["base"])) { $_base_ = $context["base"]; } else { $_base_ = null; }
-        echo twig_escape_filter($this->env, $_base_, "html", null, true);
-        echo "/about#\">Our Sponsors</a></li>
-            <li><a href=\"";
-        // line 27
-        if (isset($context["base"])) { $_base_ = $context["base"]; } else { $_base_ = null; }
-        echo twig_escape_filter($this->env, $_base_, "html", null, true);
-        echo "/about#\">Our Crew</a></li>
-            <li><a href=\"";
-        // line 28
-        if (isset($context["base"])) { $_base_ = $context["base"]; } else { $_base_ = null; }
-        echo twig_escape_filter($this->env, $_base_, "html", null, true);
-        echo "/about#\">Volunteers</a></li>
-          </ul>
+        echo "      <ul class=\"social\">
+        <li class=\"twitter\">
+          <a href=\"https://twitter.com/windmillwindup\" class=\"twitter-follow-button\" data-show-count=\"false\" data-show-screen-name=\"false\">Follow @windmillwindup</a>
+          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=\"//platform.twitter.com/widgets.js\";fjs.parentNode.insertBefore(js,fjs);}}(document,\"script\",\"twitter-wjs\");</script>
         </li>
-        <li><a href=\"";
-        // line 31
-        if (isset($context["base"])) { $_base_ = $context["base"]; } else { $_base_ = null; }
-        echo twig_escape_filter($this->env, $_base_, "html", null, true);
-        echo "/tourney\">Tourney</a></li>
-        <li><a href=\"";
-        // line 32
-        if (isset($context["base"])) { $_base_ = $context["base"]; } else { $_base_ = null; }
-        echo twig_escape_filter($this->env, $_base_, "html", null, true);
-        echo "/media\">Photos &amp; Video</a></li>
-        <li><a href=\"";
-        // line 33
-        if (isset($context["base"])) { $_base_ = $context["base"]; } else { $_base_ = null; }
-        echo twig_escape_filter($this->env, $_base_, "html", null, true);
-        echo "/gear\">Windmill gear</a></li>
-        <li><a href=\"";
-        // line 34
-        if (isset($context["base"])) { $_base_ = $context["base"]; } else { $_base_ = null; }
-        echo twig_escape_filter($this->env, $_base_, "html", null, true);
-        echo "/amsterdam\">Amsterdam</a></li>
-        <li><a href=\"";
-        // line 35
-        if (isset($context["base"])) { $_base_ = $context["base"]; } else { $_base_ = null; }
-        echo twig_escape_filter($this->env, $_base_, "html", null, true);
-        echo "/contact\">Contact</a></li>
-        <li><a href=\"";
-        // line 36
-        if (isset($context["base"])) { $_base_ = $context["base"]; } else { $_base_ = null; }
-        echo twig_escape_filter($this->env, $_base_, "html", null, true);
-        echo "/press\">Press</a></li>
-      </ul>
-      <ul class=\"social\">
-        <li>Tw</li>
-        <li>Fb</li>
+        <li>
+          <div class=\"fb-like\" data-href=\"http://www.facebook.com/WindmillWindup\" data-send=\"true\" data-layout=\"button_count\" data-width=\"131\" data-show-faces=\"false\"></div>
+        </li>
       </ul>
     </div>
     <div id=\"site\">
     \t";
-        // line 44
+        // line 29
         $this->displayBlock('content', $context, $blocks);
-        // line 45
+        // line 30
         echo "    </div>
     <div id=\"footer\">
       
@@ -184,7 +108,7 @@ class __TwigTemplate_94613c06f1b5115fdf1101a696b15f1e extends Twig_Template
     {
     }
 
-    // line 44
+    // line 29
     public function block_content($context, array $blocks = array())
     {
         echo " base ";
@@ -202,6 +126,6 @@ class __TwigTemplate_94613c06f1b5115fdf1101a696b15f1e extends Twig_Template
 
     public function getDebugInfo()
     {
-        return array (  186 => 44,  181 => 9,  175 => 5,  141 => 45,  139 => 44,  127 => 36,  122 => 35,  117 => 34,  112 => 33,  107 => 32,  102 => 31,  95 => 28,  90 => 27,  85 => 26,  80 => 25,  75 => 24,  70 => 23,  65 => 22,  60 => 21,  54 => 19,  49 => 18,  39 => 10,  37 => 9,  30 => 6,  26 => 5,  20 => 1,);
+        return array (  110 => 29,  105 => 9,  99 => 5,  65 => 30,  63 => 29,  50 => 18,  48 => 17,  39 => 10,  37 => 9,  30 => 6,  26 => 5,  20 => 1,);
     }
 }

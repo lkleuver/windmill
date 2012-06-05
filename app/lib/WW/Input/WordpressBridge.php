@@ -56,5 +56,29 @@ class WW_Input_WordpressBridge {
 		return $result;
 	}
 	
+	public function idForKey($key) {
+		$result = 0;
+		$sql = sprintf("SELECT p.ID FROM wp_posts p WHERE p.post_status = 'publish' AND p.post_name = '%s'", mysql_real_escape_string($key));
+		$rs = mysql_query($sql, $this->db);
+		if($row = mysql_fetch_object($rs)) {
+			$result = $row->ID;
+		}
+
+		return $result;
+	}
+	
+	public function getSubpages($key, $includeContent = false) {
+		$result = array();
+		$sql = sprintf("SELECT %s FROM wp_posts p WHERE p.post_status = 'publish' AND p.post_parent = '%s'", 
+			$includeContent ? "p.*" : "p.post_title, p.post_name", 
+			$this->idForKey($key));
+			
+		$rs = mysql_query($sql, $this->db);
+		while($row = mysql_fetch_object($rs)) {
+			$result[] = $row;
+		}
+
+		return $result;	
+	}
 	
 }

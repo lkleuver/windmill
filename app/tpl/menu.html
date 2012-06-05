@@ -1,0 +1,55 @@
+<ul class="menu">
+  <li{% if section == 'home' %} class="active"{% endif %}><a href="{{base}}/">Home</a></li>
+  <li{% if section == 'about' %} class="active"{% endif %}><a href="{{base}}/about">About Us</a>
+    <ul>
+      <li><a href="{{base}}/about#whatiswindmillwindup">What is Windmill Windup?</a></li>
+      <li><a href="{{base}}/about#">What is Ultimate Frisbee?</a></li>
+      <li><a href="{{base}}/about/green">Green Windmill</a></li>
+      <li><a href="{{base}}/about/charity">Charity</a></li>
+      <li><a href="{{base}}/about/history">History</a></li>
+      <li><a href="{{base}}/about/sponsors">Our Sponsors</a></li>
+      <li><a href="{{base}}/about/crew">Our Crew</a></li>
+      <li><a href="{{base}}/about/volunteers">Volunteers</a></li>
+    </ul>
+  </li>
+
+  <li{% if section == 'tourney' %} class="active"{% endif %}><a href="{{base}}/tourney">Tourney</a>
+    <ul>
+      <li><a href="{{base}}/tourney">Registration and fees</a></li>
+      <li><a href="{{base}}/tourney">Schedule of Events</a></li>
+      <li><a href="{{base}}/tourney">Accommodation</a></li>
+      <li><a href="{{base}}/tourney">Food</a></li>
+      <li><a href="{{base}}/tourney">Field Map</a></li>
+      <li><a href="{{base}}/tourney">Directions</a></li>
+      <li><a href="{{base}}/tourney">Teams</a></li>
+      <li><a href="{{base}}/tourney">Pickup</a></li>
+      <li><a href="{{base}}/tourney">Rules and format</a></li>
+    </ul>
+  </li>
+
+  <li{% if section == 'media' %} class="active"{% endif %}><a href="{{base}}/media">Photos &amp; Video</a>
+    <ul>
+      <li><a href="{{base}}/media#photos">Photos</a></li>
+      <li><a href="{{base}}/media#video">Video</a></li>
+    </ul>
+  </li>
+  
+  <li{% if section == 'gear' %} class="active"{% endif %}><a href="{{base}}/gear">Windmill gear</a>
+    <ul>
+      <li><a href="{{base}}/gear">Buy yours</a></li>
+      <li><a href="{{base}}/wherehasyourgearbeen">Where has your gear been?</a></li>
+    </ul>
+  </li>
+  
+  <li{% if section == 'amsterdam' %} class="active"{% endif %}><a href="{{base}}/amsterdam">Amsterdam</a>
+    <ul>
+      <li><a href="{{base}}/amsterdam">Tourist info</a></li>
+      <li><a href="{{base}}/amsterdam#bikes">Bikes</a></li>
+      <li><a href="{{base}}/amsterdam#eat">Places to Eat</a></li>
+      <li><a href="{{base}}/amsterdam#hotels">Hotels</a></li>
+    </ul>
+  </li>
+  
+  <li{% if section == 'contact' %} class="active"{% endif %}><a href="{{base}}/contact">Contact</a></li>
+  <li{% if section == 'press' %} class="active"{% endif %}><a href="{{base}}/press">Press</a></li>
+</ul>

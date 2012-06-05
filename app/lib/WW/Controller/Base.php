@@ -4,7 +4,7 @@ class WW_Controller_Base {
 	public $output;
 	public $params;
 
-	public function __construct($output, $params = null, $section = 'tournament') {
+	public function __construct($output, $params = null, $section = 'home') {
 		$this->output = $output;
 		$this->params = $params;
 

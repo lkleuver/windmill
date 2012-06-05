@@ -14,30 +14,15 @@
   </div>
   <div id="content">
     <div id="nav">
-      <ul class="menu">
-        <li><a href="{{base}}/">Home</a></li>
-        <li><a href="{{base}}/about">About Us</a>
-          <ul>
-            <li><a href="{{base}}/about#whatiswindmillwindup">What is Windmill Windup?</a><li>
-            <li><a href="{{base}}/about#">What is Ultimate Frisbee?</a></li>
-            <li><a href="{{base}}/about#">Green Windmill</a></li>
-            <li><a href="{{base}}/about#">Charity</a></li>
-            <li><a href="{{base}}/about#">History</a></li>
-            <li><a href="{{base}}/about#">Our Sponsors</a></li>
-            <li><a href="{{base}}/about#">Our Crew</a></li>
-            <li><a href="{{base}}/about#">Volunteers</a></li>
-          </ul>
-        </li>
-        <li><a href="{{base}}/tourney">Tourney</a></li>
-        <li><a href="{{base}}/media">Photos &amp; Video</a></li>
-        <li><a href="{{base}}/gear">Windmill gear</a></li>
-        <li><a href="{{base}}/amsterdam">Amsterdam</a></li>
-        <li><a href="{{base}}/contact">Contact</a></li>
-        <li><a href="{{base}}/press">Press</a></li>
-      </ul>
+      {% include "menu.html"%}
       <ul class="social">
-        <li>Tw</li>
-        <li>Fb</li>
+        <li class="twitter">
+          <a href="https://twitter.com/windmillwindup" class="twitter-follow-button" data-show-count="false" data-show-screen-name="false">Follow @windmillwindup</a>
+          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+        </li>
+        <li>
+          <div class="fb-like" data-href="http://www.facebook.com/WindmillWindup" data-send="true" data-layout="button_count" data-width="131" data-show-faces="false"></div>
+        </li>
       </ul>
     </div>
     <div id="site">
